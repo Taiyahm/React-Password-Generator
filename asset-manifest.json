@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Password-Generator/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/React-Password-Generator/static/js/main.c6ce8f2d.chunk.js",
+    "main.js.map": "/React-Password-Generator/static/js/main.c6ce8f2d.chunk.js.map",
+    "runtime-main.js": "/React-Password-Generator/static/js/runtime-main.775b9f59.js",
+    "runtime-main.js.map": "/React-Password-Generator/static/js/runtime-main.775b9f59.js.map",
+    "static/js/2.7af7748e.chunk.js": "/React-Password-Generator/static/js/2.7af7748e.chunk.js",
+    "static/js/2.7af7748e.chunk.js.map": "/React-Password-Generator/static/js/2.7af7748e.chunk.js.map",
+    "static/js/3.c3109e61.chunk.js": "/React-Password-Generator/static/js/3.c3109e61.chunk.js",
+    "static/js/3.c3109e61.chunk.js.map": "/React-Password-Generator/static/js/3.c3109e61.chunk.js.map",
+    "index.html": "/React-Password-Generator/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/React-Password-Generator/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.7af7748e.chunk.js.LICENSE.txt": "/React-Password-Generator/static/js/2.7af7748e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/React-Password-Generator/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.775b9f59.js",
+    "static/js/2.7af7748e.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.c6ce8f2d.chunk.js"
+  ]
+}
