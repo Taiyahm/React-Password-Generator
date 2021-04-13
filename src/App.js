@@ -8,8 +8,6 @@ var symbols = ["!","#","$","^","&","*","-","=","+","_","?",];
 function App() {
 
   function generatePassword(){
-
-    // Prompts user to enters password length
     var passwordLength = parseInt(prompt("Enter the length of your password between 8 and 128 characters:"));
   
     if (passwordLength < 8) {
@@ -20,14 +18,12 @@ function App() {
       alert('Must be less than 128 characters!');
       return;
     }
-  
-    // Prompts user to include uppercase,lowercase,numbers, and/or symbols
+
     var includeUpper =  window.confirm("Would you like to include uppercase letters?");
     var includeLower = window.confirm("Would you like to include lowercase letters?");
     var includeNumbers = window.confirm("Would you like to include numbers?");
     var includeSymbols = window.confirm("Would you like to include symbols?");
   
-    // alerts user to select criteria if none is chosen
     if (!includeNumbers && !includeUpper && !includeSymbols && !includeLower) {
       alert('Must select at least one of the criteria!');
       return;
@@ -78,7 +74,7 @@ function App() {
           ></textarea>
         </div>
         <div class="card-footer">
-          <button id="generate" class="btn" onClick={generatePassword} >Generate Password</button>
+          <button class="btn" onClick={generatePassword} >Generate Password</button>
         </div>
       </div>
     </div>
