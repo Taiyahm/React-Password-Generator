@@ -1,3 +1,4 @@
+import {useState} from 'react'
 import './App.css';
 
 var lower = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","u","z"];
@@ -6,7 +7,7 @@ var numbers = ["0","1","2","3","4","5","6","7","8","9"];
 var symbols = ["!","#","$","^","&","*","-","=","+","_","?",];
 
 function App() {
-
+    const [password, setpassword] = useState("")
   function generatePassword(){
     var passwordLength = parseInt(prompt("Enter the length of your password between 8 and 128 characters:"));
   
@@ -51,10 +52,8 @@ function App() {
     for (var i = 0; i < passwordLength; i++) {
       passArr.push (confirmedArr[Math.floor(Math.random() * confirmedArr.length)]); 
     }
-    
-    return passArr.join("") ;
+    setpassword(passArr.join(""))
   }
-  var password = generatePassword();
 
   return (
     <div class="wrapper">
